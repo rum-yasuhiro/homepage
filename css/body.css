@@ -57,56 +57,56 @@
   }
 }
 
-/* research */
-.body-research {
+/* works */
+.body-works {
   display: flex;
   margin: 60px;
   height: 100vh;
 }
-.body-research-item {
+.body-works-item {
   width: 50%;
   margin: 10px;
 }
-.body-research-left {
+.body-works-left {
   position: relative;
 }
-.body-research-text {
+.body-works-text {
   text-align: center;
 }
-.body-research-right {
+.body-works-right {
   position: relative;
 }
-.body-research-img img {
+.body-works-img img {
   height: 500px;
   width: 100%;
   object-fit: cover;
 }
 
 @media screen and (max-width: 1024px) {
-  .body-research {
+  .body-works {
     display: block;
     height: 100vh;
   }
-  .body-research-item {
+  .body-works-item {
     display: block;
     width: auto;
     top: 0;
   }
-  .body-research-left {
+  .body-works-left {
     position: relative;
     margin: 0%;
   }
-  .body-research-text {
+  .body-works-text {
     position: inherit;
     width: auto;
   }
 
-  .body-research-right {
+  .body-works-right {
     position: relative;
     margin: 0;
   }
 
-  .body-research-img img {
+  .body-works-img img {
     max-width: 100%;
     object-fit: cover;
   }
