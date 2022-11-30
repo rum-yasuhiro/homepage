@@ -1,0 +1,163 @@
+/* body */
+.body {
+  background-color: #ffffff;
+  text-align: center;
+  display: table;
+  width: 100%;
+  max-height: 600px;
+}
+
+/* about */
+.body-about {
+  display: flex;
+  margin: 60px;
+  height: 100vh;
+}
+.body-about-item {
+  width: 50%;
+  margin: 10px;
+}
+.body-about-left {
+  position: relative;
+}
+.body-about-text {
+  text-align: center;
+}
+.body-about-right {
+  position: relative;
+}
+.body-about-img img {
+  height: 500px;
+  width: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .body-about {
+    display: block;
+    height: 100vh;
+  }
+  .body-about-item {
+    display: block;
+    width: auto;
+    top: 0;
+  }
+  .body-about-text {
+    position: inherit;
+    width: auto;
+  }
+
+  .body-about-right {
+    position: relative;
+    margin: 0;
+  }
+
+  .body-about-img img {
+    object-fit: cover;
+  }
+}
+
+/* research */
+.body-research {
+  display: flex;
+  margin: 60px;
+  height: 100vh;
+}
+.body-research-item {
+  width: 50%;
+  margin: 10px;
+}
+.body-research-left {
+  position: relative;
+}
+.body-research-text {
+  text-align: center;
+}
+.body-research-right {
+  position: relative;
+}
+.body-research-img img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .body-research {
+    display: block;
+    height: 100vh;
+  }
+  .body-research-item {
+    display: block;
+    width: auto;
+    top: 0;
+  }
+  .body-research-left {
+    position: relative;
+    margin: 0%;
+  }
+  .body-research-text {
+    position: inherit;
+    width: auto;
+  }
+
+  .body-research-right {
+    position: relative;
+    margin: 0;
+  }
+
+  .body-research-img img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+}
+
+/* contact */
+.body-contact {
+  display: flex;
+  margin: 60px;
+  height: 100vh;
+}
+.body-contact-item {
+  width: 50%;
+  margin: 10px;
+}
+.body-contact-left {
+  position: relative;
+}
+.body-contact-text {
+  text-align: center;
+}
+.body-contact-right {
+  position: relative;
+}
+.body-contact-img img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .body-contact {
+    display: block;
+    height: 100vh;
+  }
+  .body-contact-item {
+    display: block;
+    width: auto;
+    top: 0;
+  }
+  .body-contact-text {
+    position: inherit;
+    width: auto;
+  }
+
+  .body-contact-right {
+    position: relative;
+    margin: 0;
+  }
+
+  .body-contact-img img {
+    object-fit: cover;
+  }
+}
